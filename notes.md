@@ -1,0 +1,25 @@
+- Why use microservices
+  - Scalability 
+  - Cost reasons (scale down to zero)
+  - Deploying Independently
+- What is .net aspire
+  - Two main parts
+    - App host
+      - Startup project for app that knows about all the microservices and can start them all up for you
+    - Service default
+- Don't deal with ports, just define project endpoint 
+  - Can easily implement http fallback
+- Can deploy outside .net aspire
+  - Specify ports in a config
+- Can add containers in .net code instead of having to do this outside of the application
+- Benefits for monoliths as well 
+- Resiliency
+  - AddStandardResilienceHandler
+  - Health checks
+    - Health/live
+- Observability
+  - Open Telemetry
+    - There's a serilog sink for this
+- Modularity
+- Azure container apps
+  - Can scale to absolute zero
