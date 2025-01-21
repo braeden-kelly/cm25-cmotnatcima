@@ -1,0 +1,3 @@
+- https://landscape.cncf.io/
+- https://github.com/serilog/serilog-sinks-opentelemetry
+- https://www.slideshare.net/slideshow/increase-observability-resiliency-and-dev-usability-with-net-aspire/273107027
